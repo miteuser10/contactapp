@@ -8,3 +8,37 @@ h3{
 #update{
     display: none;
 }
+table{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 60%;
+}
+table td{
+    border-bottom: 1px solid lightblue;
+    padding: 10px;
+}
+table td:nth-child(odd){
+    background-color: azure;
+}
+table tr:nth-child(even){
+    background-color: azure;
+}
+table td:hover{
+    background-color: skyblue;
+    color: azure;
+}
+table td button{
+    color: ghostwhite;
+    background-color: deepskyblue;
+}
+input{
+    width: 150px;
+    height: 30px;
+    border: 1px solid deepskyblue;
+}
+button{
+    color: deepskyblue;
+    text-emphasis-color: deepskyblue;
+    background: azure;
+}
